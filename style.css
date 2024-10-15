@@ -16,13 +16,15 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #111111;
+  background-color: red;
 }
 
 body{
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  height: 100%;
 }
 
 .banner{
@@ -37,7 +39,7 @@ body{
 }
 
 .left{
-  border: 4px solid #000000;
+  border: 3px solid #000000;
   position: absolute;
   margin: 2px;
   padding: 2px;
@@ -46,7 +48,7 @@ body{
 }
 
 .right{
-  border: 4px solid #000000;
+  border: 3px solid #000000;
   position: absolute;
   right: 10px;
   margin: 2px;
@@ -55,6 +57,27 @@ body{
   width: 65%;
 }
 
-#labs{
-  display: grid;
+a, a:visited{
+  color: white;
+  font-weight: italic;
+}
+a:hover{
+  color: red;
+  font-weight: bold;
+}
+
+td{
+  border: 2px solid black;
+  border-radius: 5px; 
+  font-style: ;
+}
+
+.container{
+  border: 2px solid black;
+  border-radius: 5px; 
+  display: inline-block;
+  vertical-align: center;
+  word-spacing: 5px;
+  width: 1200px;
+  height: 1500px;
 }
